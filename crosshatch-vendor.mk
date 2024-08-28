@@ -334,6 +334,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.sdm.plugins.diagmon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.diagmon.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.sdm.plugins.usccdm.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.usccdm.xml \
+    vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.android.apps.wearables.maestro.companion.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.wearables.maestro.companion.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
@@ -464,6 +465,7 @@ PRODUCT_PACKAGES += \
     SSRestartDetector \
     com.qualcomm.qti.services.secureui \
     CarrierSettings \
+    MaestroPrebuilt \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
